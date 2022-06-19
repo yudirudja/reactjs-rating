@@ -1,3 +1,7 @@
+# project description
+using reactJS to show the UI of rating system with reactjs component such as routes, useNavigate,etc.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
