@@ -1,3 +1,7 @@
+.root{
+  font-size: 16px;
+}
+
 .App {
   text-align: center;
 }
@@ -9,7 +13,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 25s linear;
   }
 }
 
@@ -22,6 +26,118 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.star-logo{
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 1rem;
+  background-color: #282c34;
+  border-radius: 100%;
+}
+
+.thanks-logo{
+  width: 20rem;
+  align-self: center;
+}
+
+.container-center{
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(216, 12%, 8%);
+  text-align: center;
+  padding: 5rem ;
+  border-radius: 1rem;
+  max-width: 40rem;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(216, 12%, 8%);
+  text-align: left;
+  padding: 5rem ;
+  border-radius: 1rem;
+  max-width: 40rem;
+}
+
+.container .container-header{
+  margin-bottom: -0.5rem;
+}
+
+.container .container-content{
+  
+}
+
+.container .container-rating {
+  color: hsl(217, 12%, 63%);
+  padding-top: 1rem;
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: space-evenly;
+  margin-left: -2.5rem;
+ 
+}
+
+.rating{
+  display: none;
+}
+
+.container .container-submit{
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  margin-left: -2.5rem;
+}
+
+input[type=submit]:hover{
+  border: none;
+  border-radius: 0.5rem;
+  background-color: white;
+  width: 85%;
+  height: 3rem;
+  margin-top: 3rem;
+  margin-left: 0.5rem;
+}
+
+.submit-button{
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: hsl(25, 97%, 53%);
+  color:hsl(0, 0%, 100%);
+  width: 85%;
+  height: 3rem;
+  margin-top: 3rem;
+  margin-left: 0.5rem;
+}
+
+.submit-button:hover{
+  background-color: hsl(0, 0%, 100%);;
+  color: hsl(25, 97%, 53%);
+  transition: 0.5s;
+}
+
+
+.container-rating li label{
+  background-color: hsl(213, 19%, 18%);
+  padding: 1.25rem 2rem;
+  border-radius: 100%;
+  user-select: none;
+  margin-left: 3rem;
+}
+
+.container-rating li label:hover{
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.container-rating li label:active{
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
 }
 
 .App-link {
